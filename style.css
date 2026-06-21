@@ -1,0 +1,93 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f5f7fb;
+  color: #1f2937;
+  line-height: 1.6;
+}
+
+/* HEADER */
+header {
+  background: #232f3e;
+  color: white;
+  padding: 40px 20px;
+  text-align: center;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 32px;
+}
+
+header p {
+  margin-top: 10px;
+  opacity: 0.85;
+}
+
+/* LAYOUT */
+.container {
+  max-width: 900px;
+  margin: 30px auto;
+  padding: 0 20px;
+}
+
+/* CARDS */
+.card {
+  background: white;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 12px;
+  box-shadow: 0 3px 10px rgba(0,0,0,0.08);
+}
+
+/* HEADINGS */
+h2 {
+  margin-top: 0;
+  font-size: 20px;
+  border-left: 4px solid #232f3e;
+  padding-left: 10px;
+}
+
+/* TEXT */
+p {
+  color: #374151;
+}
+
+/* LISTS */
+ul {
+  padding-left: 20px;
+}
+
+/* TAGS */
+.tag {
+  display: inline-block;
+  background: #e5e7eb;
+  padding: 6px 10px;
+  border-radius: 20px;
+  font-size: 12px;
+  margin: 4px 4px 0 0;
+}
+
+/* LINKS */
+.link {
+  color: #2563eb;
+  text-decoration: none;
+}
+
+.link:hover {
+  text-decoration: underline;
+}
+
+/* HIGHLIGHT */
+.highlight {
+  font-weight: bold;
+  color: #111827;
+}
+
+/* FOOTER */
+footer {
+  text-align: center;
+  padding: 20px;
+  font-size: 12px;
+  color: #6b7280;
+}
