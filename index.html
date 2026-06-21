@@ -10,7 +10,7 @@
 
 <header>
   <h1>Static Website on AWS</h1>
-  <p>A simple static website hosted on Amazon S3 with CloudFront distribution</p>
+  <p>A simple static website hosted on Amazon S3 with a CloudFront distribution</p>
 </header>
 
 <div class="container">
@@ -19,7 +19,7 @@
   <div class="card">
     <h2>About This Project</h2>
     <p>
-      This is just a basic website to show my ability to use AWS. I have focused on purely AWS and not the website design itself.
+      This project demonstrates my ability to use AWS services to design, deploy, and deliver a static website using Amazon S3 and CloudFront, with a focus on cloud infrastructure rather than frontend design.
     </p>
   </div>
 
@@ -27,10 +27,13 @@
   <div class="card">
     <h2>What I Built</h2>
     <ul>
-      <li>Step 1 - Build this website (For Transparency this was assisted by online website templates and AI tools, as I want to display AWS skills not frontend design skills)</li>
-      <li>Step 2 - Set up S3 bucket. The required settings included Static website hosting on, Block all public access and Bucket policy to allow CloudFront access.</li>
-      <li>Step 3 - Set up CloudFront. This give much lower latency, and ensures users may only access the website through CloudFront and not the s3 directly</li>
-      <li>Step 3 - Upload these website files (Using CLI)</li>
+      <li>Step 1 - Built this website. (For transparency, this was assisted by online templates and AI tools, as the focus is on demonstrating AWS skills rather than frontend design.)</li>
+      
+      <li>Step 2 - Set up an S3 bucket. Required settings included enabling static website hosting, configuring public access settings appropriately, and applying a bucket policy to allow CloudFront access.</li>
+      
+      <li>Step 3 - Set up CloudFront. This improves performance through caching at edge locations and ensures users access the website via CloudFront rather than directly through S3.</li>
+      
+      <li>Step 4 - Uploaded website files using the AWS CLI.</li>
     </ul>
   </div>
 
@@ -41,7 +44,7 @@
       User → CloudFront → S3 Bucket → Website Files
     </p>
     <p>
-      [Explain briefly how data flows through the system.]
+      Users access the CloudFront domain, which serves cached content from the S3 bucket, reducing latency and improving global performance.
     </p>
   </div>
 
@@ -50,7 +53,6 @@
     <h2>AWS Services Used</h2>
     <span class="tag">Amazon S3</span>
     <span class="tag">CloudFront</span>
-    <span class="tag">S3 Bucket</span>
   </div>
 
   <!-- SKILLS -->
@@ -59,7 +61,7 @@
     <ul>
       <li>Cloud fundamentals</li>
       <li>Static website hosting</li>
-      <li>Networking / CDN concepts</li>
+      <li>Content delivery network (CDN) concepts</li>
     </ul>
   </div>
 
@@ -67,14 +69,14 @@
   <div class="card">
     <h2>Links</h2>
     <a class="link" href="https://github.com/TimothyJFryer/aws-static-webpage">GitHub Repository</a><br>
-    <a class="link" href="https://d2xrcrweu3qf62.cloudfront.net/">Live Website (S3)</a>
+    <a class="link" href="https://d2xrcrweu3qf62.cloudfront.net/">Live Website (CloudFront)</a>
   </div>
 
   <!-- REFLECTION -->
   <div class="card">
     <h2>What I Learned</h2>
     <p>
-      During the creation of this project I learned to a greater depth how to implement the services I have been studying on my AWS SAA course and how to coordinate them to work togethor.
+      During the creation of this project, I developed a deeper understanding of how AWS services can be integrated together, particularly how S3 and CloudFront work together to deliver scalable static websites.
     </p>
   </div>
 
